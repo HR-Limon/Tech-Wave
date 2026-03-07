@@ -19,19 +19,22 @@
 <body class="m-0 p-0">
     <header>
         <nav class="bg-[#1a0b2eFF] border-2 border-gray-700">
-            <div class="flex justify-between items-center mx-[200px] py-[30px]">
+            <div class="flex justify-between items-center lg:mx-[200px] lg:py-[30px] px-5 py-4">
                 <div>
                     <p class="text-[#FFFFFF] font-bold text-5xl" >Tech<span class="bg-[linear-gradient(30deg,#f7e93f_20%,#fb09b4_55%,#9100f8_100%)] bg-clip-text text-transparent">Wave</span></p>
                 </div>
                 <div>
-                    <ul class="text-[#FFFFFF] flex gap-8 font-medium">
+                    <ul class="hidden lg:text-[#FFFFFF] lg:flex lg:gap-8 lg:font-medium">
                         <li>About</li>
                         <li>Episode</li>
                         <li>Host</li>
                     </ul>
                 </div>
-                <div class="w-[135px] h-11 bg-[linear-gradient(20deg,#f7e93f_10%,#fb09b4_55%,#9100f8_100%)] flex justify-center items-center rounded-full">
+                <div class="hidden lg:w-[135px] lg:h-11 lg:bg-[linear-gradient(20deg,#f7e93f_10%,#fb09b4_55%,#9100f8_100%)] lg:flex lg:justify-center lg:items-center lg:rounded-full">
                     <p class="text-[#FFFFFF] font-bold">Subscribe<i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+                <div class="lg:hidden">
+                    <img src="assets/hamburger-menu.png" alt="">
                 </div>
             </div>
         </nav>
@@ -207,7 +210,7 @@
                     </p>
                 </div>
                 <div>
-                    <p class="text-gray-400 font-semibold flex justify-start items-center text-2xl lg:text-base ml-[-36px]">
+                    <p class="text-gray-400 font-semibold flex justify-start items-center text-2xl lg:text-base ml-[-9]">
                         <i class="fa-solid fa-podcast text-white"></i>
                         Apple Podcasts
                     </p>
